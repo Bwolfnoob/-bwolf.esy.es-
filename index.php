@@ -18,12 +18,9 @@
         </nav>
     </header>
     <article>
-        <?php>
-        for ($i = 0 ; $i < 10;$i++)
-        {
-            echo "Var:$i";
-        }    
-        </php>
+        <div>Vai saber</div>
+        <?php for($i =1; $i < 20; $i++){ echo "Upload ".$i.": <input type='text' name='".$i."'/><br/>"; } ?>
+
     </article>
 </body>
 
