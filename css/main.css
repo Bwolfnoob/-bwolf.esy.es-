@@ -1,27 +1,96 @@
-header 
+body 
 {
-    width: 1000px;
-    height: 100px;
-   /* background: red;*/
-    margin: auto;
-    border: 5px double;
+   margin:0px;
+  overflow-y: hidden; 
 }
-header div
+
+#principal 
 {
+    width: 70%;   
+    padding:5px;
+   /* border-bottom: 1px solid green;*/
+    background: #eeeeee;
     margin: auto;
+    height: 150px;
+}
+
+header #header 
+{
     font-size: 60px;
+    margin-top: 30px;
+    display: block;
     text-align: center;
 }
 
-header nav a
-{
-    font-size: 30px;
+header nav .item {
+    width: 200px;
+    display: inline-block;
+    height: 80px;
+    margin: 18px;
     text-align: center;
-     border: 5px double;
+    text-decoration: none;
 }
 
-header nav
+header nav a {
+    width: 200px;
+    display: inline-block;
+    height: 80px;
+    line-height: 130px;
+    background-color: rgba(200, 50, 50, 0.8);   
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: darkred;
+    
+    
+}
+
+header nav a:hover {
+   color: blue;
+   width: 205px;
+   height: 85px;
+   -ms-transform: rotate(0deg); 
+   transform: rotate(0deg);
+}
+
+.dir
 {
+    -ms-transform: rotate(3deg); 
+    transform: rotate(3deg);
+}
+.esq
+{
+     -ms-transform: rotate(-3deg); 
+    transform: rotate(-3deg);
+}
+
+.janela
+{
+    width: 800px;
+    height: 450px;
+    background: red;
     margin: auto;
-    background: blue;
+    margin-top: 50px;
+    background-color: rgba(204, 255, 153, 0.8);
+    border: 2px solid blue;
+}
+article header
+{
+    background: green;
+    text-align: center;
+    font-weight: bold;
+     border-bottom: 2px solid blue;
+    height: 20px;
+    line-height: 25px;
+    
+}
+
+article header #xClose
+{
+    float: right;
+    width: 20px;
+    color: white;
+    background: red;
+     line-height: 20px;
+    text-decoration: none
 }
